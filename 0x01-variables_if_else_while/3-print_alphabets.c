@@ -2,9 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-/**
- *  * main - Entry point
- *     */
+/*main - Entry point */
 
 int main(void)
 
@@ -15,7 +13,7 @@ int main(void)
 			putchar(low);
 		for (low = 'A'; low <= 'Z'; low++)
 			putchar(low);
-			putchar('\n');
+		putchar('\n');
 		return (0);
 
 }
